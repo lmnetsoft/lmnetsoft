@@ -127,3 +127,12 @@
     filter: invert(1);
   }
 }
+
+/* Add this to your Home.module.css file */
+.h1Justified {
+  text-align: justify;
+  /* This will distribute your text evenly, including the last line */
+  text-align-last: justify;
+  /* Use this to distribute spaces between words */
+  text-justify: inter-word;
+}
