@@ -58,8 +58,7 @@ export default function Home() {
               Hello {user.attributes.name} - {user.attributes.email}
             </h1>
             <p>Secret message</p>
-            {/* <button onClick={getUserData}>Call API</button>
-            <button onClick={getUserData}>Call API</button> */}
+            <button onClick={getUserData}>Call API</button>
             <br />
             <button onClick={signOut}>Sign out</button>
           </main>
